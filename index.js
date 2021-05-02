@@ -10,7 +10,7 @@ function findMatching(drivers,nameToCheck){
 findMatching(drivers,'Bobby')
 
 function fuzzyMatch(drivers, portionCheck){
-  let filtered = drivers.filter(n =>{return n.toLowerCase().slice(0,len(portionCheck))===portionCheck.toLowerCase();});
+  let filtered = drivers.filter(n =>{return n.toLowerCase().slice(0,portionCheck.length)===portionCheck.toLowerCase();});
   return filtered;
 }
 
