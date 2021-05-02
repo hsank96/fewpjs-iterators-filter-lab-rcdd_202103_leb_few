@@ -17,4 +17,21 @@ function fuzzyMatch(drivers, portionCheck){
 fuzzyMatch(drivers,"Sa")
 
 
+const drivers2 = [
+        {
+          name: 'Bobby',
+          hometown: 'Pittsburgh' },
+        {
+          name: 'Sammy',
+          hometown: 'New York' } ,
+        {
+          name: 'Sally',
+          hometown: 'Cleveland' },
+        {
+          name: 'Annette',
+          hometown: 'Los Angeles' },
+        {
+          name: 'Bobby',
+          hometown: 'Tampa Bay' }
+      ];
 
