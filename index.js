@@ -36,7 +36,7 @@ const drivers2 = [
       ];
 
 function matchName(drivers2, check2){
-  let result = drivers2.filter(driver => {return driver.name === "Sally"});
+  let result = drivers2.filter(driver => {return driver.name === check2});
   return result;
 }
 
