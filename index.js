@@ -35,6 +35,9 @@ const drivers2 = [
           hometown: 'Tampa Bay' }
       ];
 
-function matchName(){
-  drivers2.filter(driver => {return driver.name === "Sally"})
+function matchName(drivers2, check2){
+  let result = drivers2.filter(driver => {return driver.name === "Sally"});
+  return result;
 }
+
+matchName(drivers2,"Bobby")
